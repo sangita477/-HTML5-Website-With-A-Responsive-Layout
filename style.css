@@ -1,0 +1,158 @@
+body {
+	font: 15px/1.5 Arial, Helvetika, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ .button-1 {
+ 	height: 38px;
+ 	background: #e8491d;
+ 	border: 0;
+ 	padding-left: 19px;
+ 	padding-right: 19px;
+ 	color: #fff;
+ }
+ .dark {
+ 	padding: 10px;
+ 	background-color: #35424d;
+ 	color: #fff;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ }
+ header {
+	background: #35424d;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px,
+	border-bottom: #e8491d 3px solid;
+}
+ header a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+ header li {
+ 	float: left;
+ 	display: inline;
+ 	padding: 0 20px 0 20px;
+ }
+ header #branding {
+ 	float: left;
+ }
+ header #branding h1 {
+ 	margin: 0;
+ }
+ header nav {
+ 	float: right;
+ 	margin-top: 10px;
+ }
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover {
+	color: #ccc;
+	font-weight: bold;
+}
+#showcase {
+	min-height: 300px;
+	background: url(img/Laptop-iStock.jpg) no-repeat 0 -300px;
+	text-align: center;
+	color: #fff;
+}
+#showcase h1 {
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+#showcase p {
+	font-size: 20px;
+}
+#newsletter {
+	background-color: #35424a;
+	color: #fff;
+	padding: 15px;
+}
+#newsletter h1{
+	float: left;
+}
+#newsletter form {
+	float: right;
+	margin-top: 15px;
+}
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box {
+	width: 30%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+#boxes .box img {
+	width: 90px;
+}
+aside#sidebar {
+	float: right;
+	margin-top: 10px;
+	width: 30%;
+}
+article#main-col {
+	float: left;
+	width: 65%;
+}
+ul#services li {
+	list-style: none;
+	padding: 20px;
+	border: #ccc solid 1px;
+	margin-bottom: 5px;
+	background-color: #e6e6e6;
+}
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #e8491d;
+	color: #fff;
+	text-align: center;	
+}
+@media(max-width: 768px;){
+	header #branding, 
+	header nav, 
+	header nav li,
+	#newsletter li,
+	#newsletter form,
+	#boxes .box {
+		float: none;
+		text-align: center;
+		width: 100%;
+	} 
+	header {
+		padding-top: 20px;
+	} 
+	#showcase h1 {
+		margin-top: 40px;
+	}
+	#newsletter button .quote button {
+		display: block;
+		width: 100%;
+	}
+	#newsletter form input[type="email"], .quote input, .quote textareas{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
